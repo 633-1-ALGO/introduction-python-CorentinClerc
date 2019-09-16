@@ -8,5 +8,5 @@ b = 42
 c = a
 a = b
 b = c
-print(a)
-print(b)
+print("Valeur de a : " + str(a))
+print("Valeur de b : " + str(b))
