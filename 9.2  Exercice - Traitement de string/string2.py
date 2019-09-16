@@ -3,11 +3,10 @@
 texte = "Ceci est un exemple exemplaire d'exemple exempté d'exemple."
 
 # compte d'exemples
-print(texte.count("exemple"))
+print(texte.lower().count("exemple"))
 # remplacer est par représente
-print(texte.replace(" est ", " représente "))
+print(texte.lower().replace(" est ", " représente "))
 # inverser le sens de lecture
 rev_texte  = texte.split()
-
 rev_texte.reverse()
 print(*rev_texte)
